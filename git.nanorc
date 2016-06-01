@@ -22,7 +22,7 @@ syntax "git-commit" "COMMIT_EDITMSG|TAG_EDITMSG"
 # color yellow ".*"
 
 # Warn when a commit message exceeds 50 chars per line
-color yellow "^(.*){1,50}$"
+color yellow "^(.{1,50})$"
 color red "^(.{51}).*$"
 
 # Comments
